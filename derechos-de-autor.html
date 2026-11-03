@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Registra tus obras ante el INDAUTOR: libros, música, software, fotografía, video y más. Asesoría en derechos de autor en todo México, 100% en línea.">
+<meta name="theme-color" content="#1e3a2f">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Derechos de autor ante el INDAUTOR · Protege tu obra">
+<meta property="og:description" content="Registra tus obras ante el INDAUTOR. Atendemos en todo México, 100% en línea.">
+<meta property="og:image" content="https://marcasyderechostb.pages.dev/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://marcasyderechostb.pages.dev/derechos-de-autor.html">
+<link rel="canonical" href="https://marcasyderechostb.pages.dev/derechos-de-autor.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<title>Derechos de autor ante el INDAUTOR · Protege tu obra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14281f; --green:#1e3a2f; --green2:#172d24; --card:#22392f; --line:#33493f;
+  --gold:#c5a670; --gold2:#d9bf8c; --cream:#f8f7f2; --paper:#f3f1e9; --muted:#6c766f; --soft:#a9b4ad;
+  --serif:'Playfair Display',Georgia,serif; --sans:'DM Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+[id]{scroll-margin-top:84px}
+@media(max-width:600px){.panel{padding:22px 14px!important}.quote{padding:24px 18px!important}}
+body{font-family:var(--sans);background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:96px}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.eyebrow{display:flex;align-items:center;gap:14px;font-size:12px;letter-spacing:.28em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.eyebrow:before{content:"";width:40px;height:1px;background:var(--gold)}
+.dark .eyebrow{color:var(--soft)}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:clamp(34px,6vw,54px);margin:16px 0 14px}
+.lead{font-size:18px;color:var(--muted);max-width:620px}
+.dark{background:var(--green2);color:#fff}
+.dark .lead{color:var(--soft)}
+section{padding:80px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--sans);font-weight:600;font-size:16px;border:0;border-radius:10px;padding:17px 26px;cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:scale(.98)}
+.btn-dark{background:var(--green);color:#fff;box-shadow:0 12px 30px -12px rgba(20,40,31,.5)}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-wa{background:#1f7a4d;color:#fff}
+.btn-ghost{background:transparent;border:1px solid #d9d6cb;color:var(--ink)}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* header */
+header{padding:18px 0;position:sticky;top:0;z-index:30;background:rgba(248,247,242,.92);backdrop-filter:blur(10px);border-bottom:1px solid transparent}
+header .wrap{display:flex;align-items:center;justify-content:space-between}
+.mark{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none}
+.seal{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--gold);display:grid;place-items:center;font-family:var(--serif);color:var(--green);font-size:17px}
+.mark small{display:block;font-weight:400;font-size:12px;color:var(--muted);line-height:1.2}
+header .btn{padding:10px 18px;font-size:14px;border-radius:999px}
+
+/* hero */
+.hero{padding:56px 0 70px}
+.hero-grid{display:grid;gap:48px;align-items:center}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.15fr .85fr}}
+.hero h1{font-size:clamp(48px,9vw,86px);margin:22px 0 22px}
+.hero h1 em{color:var(--gold);font-style:italic;display:block}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:32px 0 30px}
+.checks{list-style:none;display:grid;gap:10px;color:var(--muted)}
+.checks li{display:flex;gap:12px;align-items:center}
+.checks li:before{content:"";width:14px;height:8px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg) translateY(-3px)}
+.arch{background:var(--green);color:#fff;border-radius:260px 260px 18px 18px;padding:90px 34px 36px;position:relative;box-shadow:0 30px 60px -30px rgba(20,40,31,.6)}
+.arch:before{content:"";position:absolute;inset:18px;border:1px solid rgba(197,166,112,.35);border-radius:240px 240px 12px 12px;pointer-events:none}
+.badge10{position:absolute;top:34px;right:30px;width:104px;height:104px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;text-align:center;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);background:var(--green)}
+.badge10 b{display:block;font-family:var(--serif);font-size:38px;letter-spacing:0;line-height:1;color:var(--gold2)}
+.arch .q{font-family:var(--serif);font-size:56px;color:var(--gold);line-height:.6;margin-top:30px}
+.arch h3{font-size:32px;margin:14px 0 14px}
+.arch p{color:var(--soft)}
+.price-tag{margin-top:26px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;align-items:end;gap:12px}
+.price-tag span{font-size:13px;color:var(--soft)}
+.price-tag b{font-family:var(--serif);font-size:30px;color:var(--gold2)}
+
+/* trust strip */
+.strip{border-top:1px solid #e6e3d8;border-bottom:1px solid #e6e3d8;background:var(--paper)}
+.strip .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:0}
+@media(min-width:800px){.strip .wrap{grid-template-columns:repeat(4,1fr)}}
+.strip div{padding:24px 14px;text-align:center;border-right:1px solid #e6e3d8}
+.strip div:nth-child(2n){border-right:0}
+@media(min-width:800px){.strip div:nth-child(2n){border-right:1px solid #e6e3d8}.strip div:last-child{border-right:0}}
+.strip b{display:block;font-family:var(--serif);font-size:26px;color:var(--green)}
+.strip span{font-size:13px;color:var(--muted)}
+
+/* risks */
+.risks{display:grid;gap:18px;margin-top:40px}
+@media(min-width:800px){.risks{grid-template-columns:repeat(3,1fr)}}
+.risk{background:#fff;border:1px solid #e8e5da;border-radius:16px;padding:28px}
+.risk .n{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:28px}
+.risk h3{font-size:22px;margin:8px 0 8px}
+.risk p{color:var(--muted);font-size:15px}
+
+/* cases */
+.cases{display:flex;gap:14px;margin-top:36px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;-webkit-overflow-scrolling:touch}
+.cases::-webkit-scrollbar{height:6px}.cases::-webkit-scrollbar-thumb{background:#ddd8c9;border-radius:3px}
+.case{flex:0 0 82%;scroll-snap-align:start;background:#fff;border:1px solid #e8e5da;border-radius:16px;padding:20px 22px 18px}
+@media(min-width:640px){.case{flex-basis:46%}}
+@media(min-width:960px){.cases{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible}.case{flex:none}}
+.case .reg{display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:#7a6331;border:1px solid rgba(197,166,112,.6);border-radius:999px;padding:4px 9px;margin-bottom:12px}
+.case .ctop{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px}
+.case .logo{height:72px;width:auto;max-width:160px;object-fit:contain;background:#fff;border:1px solid #eeebe1;border-radius:14px;padding:6px}
+.case.cta{background:var(--green);border-color:var(--green);color:#fff;display:flex;flex-direction:column;justify-content:space-between;gap:18px;text-decoration:none}
+.case.cta h3{color:#fff;font-size:26px}
+.case.cta p{color:var(--soft);font-size:15px}
+.case.cta span{color:var(--gold2);font-weight:600}
+.case .ctop .reg{margin-bottom:0}
+.case h3{font-size:22px;line-height:1.15;margin:0 0 8px}
+.case .cl{font-size:14.5px;color:var(--muted)}
+.case .meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 10px;margin-top:14px;padding-top:12px;border-top:1px solid #eeebe1;font-size:13px;color:var(--muted)}
+.case .meta b{color:var(--ink);font-weight:600}
+.swipe{font-size:13px;color:var(--muted);margin-top:8px}
+@media(min-width:960px){.swipe{display:none}}
+/* quoter */
+.panel{background:var(--green);border:1px solid var(--line);border-radius:22px;padding:28px 22px;margin-top:40px}
+@media(min-width:800px){.panel{padding:40px}}
+.step{display:flex;align-items:center;gap:14px;font-weight:600;font-size:18px;margin:6px 0 18px}
+.step i{font-style:normal;width:40px;height:40px;border-radius:50%;border:1.5px solid var(--gold);display:grid;place-items:center;font-size:13px;color:var(--gold2);flex:none}
+.step-gap{height:34px}
+.search{position:relative;margin-bottom:16px}
+.search input{width:100%;background:var(--green2);border:1px solid var(--line);border-radius:12px;padding:16px 16px 16px 48px;color:#fff;font:inherit;font-size:16px}
+.search input::placeholder{color:#7f8c85}
+.search input:focus{outline:none;border-color:var(--gold)}
+.search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:20px;height:20px;stroke:#7f8c85}
+.giros{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:800px){.giros{grid-template-columns:repeat(4,1fr)}}
+.giro{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:16px;text-align:left;color:#fff;font:inherit;cursor:pointer;transition:border-color .15s,background .15s}
+.giro b{display:block;font-weight:500;font-size:16px;line-height:1.25;margin-bottom:6px}
+.giro span{font-size:12.5px;color:var(--gold2)}
+.giro.on{border-color:var(--gold);background:#36443a}
+.more{display:block;margin:18px auto 0;background:none;border:0;color:var(--gold2);font:inherit;font-size:15px;cursor:pointer}
+.classes{display:grid;gap:10px;max-height:460px;overflow:auto;padding-right:4px}
+.cls{display:flex;align-items:center;gap:16px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:14px 16px;color:#fff;font:inherit;text-align:left;cursor:pointer;width:100%}
+.cls .num{font-family:var(--serif);color:var(--gold2);font-size:24px;min-width:38px}
+.cls .txt{flex:1;font-size:14.5px;color:#d7ddd9}
+.cls .tg{width:30px;height:30px;border-radius:50%;border:1px solid #6d7c74;display:grid;place-items:center;flex:none;font-size:16px;color:#cfd6d2}
+.cls.on{border-color:var(--gold);background:#36443a}
+.cls.on .tg{border-color:var(--gold);color:var(--gold2)}
+.cls.sug .txt:after{content:"Sugerida";margin-left:8px;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold2);border:1px solid rgba(197,166,112,.5);border-radius:999px;padding:2px 7px;vertical-align:2px}
+.quote{background:var(--paper);color:var(--ink);border-radius:18px;padding:28px 22px;margin-top:6px}
+@media(min-width:800px){.quote{padding:36px}}
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-bottom:18px;border-bottom:1px solid #dcd8cc}
+.qhead h3{font-size:28px}
+.pill{background:#e3e7e2;border-radius:999px;padding:6px 14px;font-size:13px;white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 4px}
+.chip{border:1px solid #d3cfc2;background:#fff;color:var(--ink);border-radius:8px;padding:6px 10px;font-size:13.5px;cursor:pointer;font-family:inherit}
+.empty{color:var(--muted);font-size:14px;margin:18px 0 4px}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 0}
+.row div{font-size:16px}
+.row small{display:block;color:var(--muted);font-size:13px}
+.row b{font-size:18px;white-space:nowrap}
+.total{border-top:1px solid #dcd8cc;margin-top:6px;padding-top:18px}
+.total b{font-family:var(--serif);font-size:44px}
+.fields{display:grid;gap:12px;margin:22px 0 16px}
+@media(min-width:700px){.fields{grid-template-columns:1fr 1fr}}
+.fields input,.fields select{width:100%;padding:15px 16px;border:1px solid #d6d2c6;border-radius:10px;background:#fff;font:inherit;font-size:16px;color:var(--ink)}
+.fields input:focus,.fields select:focus{outline:none;border-color:var(--gold)}
+.fields .full{grid-column:1/-1}
+.quote .btn{width:100%}
+.fine{font-size:12.5px;color:var(--muted);text-align:center;margin-top:14px}
+
+.modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:28px}
+.mode{background:var(--green2);border:1.5px solid var(--line);border-radius:12px;padding:12px 8px;min-width:0;color:#fff;font:inherit;text-align:left;cursor:pointer}
+.mode b{display:block;font-size:13.5px;font-weight:600;line-height:1.25;margin-bottom:3px}
+.mode span{display:block;font-size:11.5px;line-height:1.3;color:var(--soft)}
+@media(min-width:600px){.mode{padding:14px}.mode b{font-size:15px}.mode span{font-size:12.5px}}
+.mode.on{border-color:var(--gold);background:#36443a}
+.addon{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid #dcd8cc;border-radius:12px;padding:14px 16px;margin:10px 0 4px;cursor:pointer}
+.addon input{width:20px;height:20px;accent-color:var(--green);margin-top:3px;flex:none}
+.addon div{font-size:15px;flex:1}
+.addon small{display:block;color:var(--muted);font-size:13px}
+.addon b{white-space:nowrap}
+.counter{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.counter div{color:#d7ddd9;font-size:15px}
+.counter small{display:block;color:var(--soft);font-size:12.5px}
+.counter .ctl{display:flex;align-items:center;gap:14px}
+.counter button{width:38px;height:38px;border-radius:50%;border:1px solid var(--gold);background:none;color:var(--gold2);font-size:20px;cursor:pointer}
+.counter output{font-family:var(--serif);font-size:26px;color:#fff;min-width:24px;text-align:center}
+.hide{display:none!important}
+.startbox{background:var(--green);color:#fff;border-radius:14px;padding:20px 20px 18px;margin-top:10px}
+.startbox .top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.startbox small{display:block;color:var(--soft);font-size:13px}
+.startbox b{font-family:var(--serif);font-size:42px;color:var(--gold2);line-height:1}
+.startbox .after{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.14);font-size:14px;color:var(--soft);display:flex;justify-content:space-between;gap:10px}
+.startbox .after strong{color:#fff;white-space:nowrap}
+.tagstep{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--gold);margin-bottom:2px}
+/* process */
+.proc{margin-top:40px;border-top:1px solid #e1ded3}
+.p{display:grid;grid-template-columns:56px 1fr;gap:10px 18px;padding:34px 0;border-bottom:1px solid #e1ded3}
+@media(min-width:800px){.p{grid-template-columns:120px 1fr 200px}}
+.p .n{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:38px;line-height:1}
+.p .t{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--gold)}
+.p h3{font-size:30px;margin:8px 0 10px}
+.p p{color:var(--muted)}
+.p .cost{font-weight:600;grid-column:2}
+@media(min-width:800px){.p .cost{grid-column:3;text-align:right;align-self:center;font-family:var(--serif);font-size:22px}}
+
+/* includes */
+.inc{display:grid;gap:14px;margin-top:36px}
+@media(min-width:800px){.inc{grid-template-columns:repeat(2,1fr)}}
+.inc div{display:flex;gap:14px;padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.inc div:before{content:"✓";color:var(--gold2);font-weight:700}
+.inc p{color:var(--soft);font-size:14.5px}
+.inc b{color:#fff;display:block;font-weight:600}
+
+/* faq */
+.faq{margin-top:36px;border-top:1px solid #e1ded3}
+details{border-bottom:1px solid #e1ded3}
+summary{list-style:none;cursor:pointer;padding:22px 40px 22px 0;font-weight:600;font-size:17px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";position:absolute;right:4px;top:18px;font-size:24px;color:var(--gold);font-weight:400;transition:transform .2s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{color:var(--muted);padding:0 0 22px;max-width:760px}
+
+/* final */
+.final{text-align:center}
+.final h2{max-width:720px;margin-left:auto;margin-right:auto}
+.final .lead{margin:0 auto 30px}
+.final .cta-row{justify-content:center}
+footer{padding:40px 0 30px;text-align:center;color:var(--muted);font-size:13px}
+
+/* sticky bar */
+.bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:40;background:var(--green2);border:1px solid #3c5248;border-radius:18px;padding:14px 14px 14px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 20px 40px -12px rgba(0,0,0,.45);max-width:640px;margin:0 auto}
+.bar small{display:block;color:var(--soft);font-size:12px}
+.bar b{font-family:var(--serif);font-size:28px;color:#fff;line-height:1.1}
+.bar .btn{padding:14px 20px;font-size:15px}
+
+.toast{position:fixed;left:50%;bottom:110px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:.25s;z-index:50}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* pestañas */
+.tabs{display:flex;gap:6px;margin-top:12px}
+.tabs a{flex:1;text-align:center;text-decoration:none;font-size:14px;font-weight:600;padding:9px 8px;color:var(--muted);border-bottom:2px solid transparent}
+.tabs a.on{color:var(--green);border-bottom-color:var(--gold)}
+header{padding-bottom:0}
+body{padding-bottom:0}
+@media(min-width:800px){.risks.six{grid-template-columns:repeat(3,1fr)}}
+.risks.six{grid-template-columns:1fr}
+@media(min-width:800px){.risks.six{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="mark" href="#inicio"><span class="seal">©</span><span>Derechos de Autor<small>Asesoría jurídica ante el INDAUTOR</small></span></a>
+    <a class="btn btn-ghost js-wa-autor" href="#" target="_blank" rel="noopener">Consultar</a>
+  </div>
+  <nav class="wrap tabs" aria-label="Servicios"><a href="/">Registro de marca</a><a class="on" href="/derechos-de-autor.html">Derechos de autor</a></nav>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Derechos de autor · INDAUTOR</div>
+      <h1>Registra los derechos de autor <em>de tus obras.</em></h1>
+      <p class="lead">El derecho de autor es lo que la ley te reconoce sobre lo que creas: un libro, una canción, un programa, una fotografía, un video. Te ayudamos a registrarlo ante el INDAUTOR para que tengas la prueba oficial de que es tuyo.</p>
+      <div class="cta-row">
+        <a class="btn btn-dark js-wa-autor" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>
+          Consultar por WhatsApp</a>
+        <a class="btn btn-ghost" href="#que-protege">¿Qué protege? <span aria-hidden="true">→</span></a>
+      </div>
+      <ul class="checks">
+        <li>Registro de obras ante el INDAUTOR</li>
+        <li>Cotización personalizada según tu caso</li>
+        <li>Atendemos en todo México, 100% en línea</li>
+      </ul>
+    </div>
+    <div class="arch">
+      <div class="badge10"><div><b>©</b>tu obra<br>protegida</div></div>
+      <div class="q">“</div>
+      <h3>Tu obra también es un patrimonio.</h3>
+      <p>Protege tus ideas y tu futuro: te acompañamos desde que nos cuentas de tu obra hasta obtener tu certificado.</p>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div><b>INDAUTOR</b><span>Registro oficial de obras</span></div>
+    <div><b>Todo México</b><span>100% en línea</span></div>
+    <div><b>Tu caso</b><span>Cotización personalizada</span></div>
+    <div><b>Desde que la creas</b><span>Tu obra ya es tuya</span></div>
+  </div>
+</div>
+
+<section id="que-protege">
+  <div class="wrap">
+    <div class="eyebrow">¿Qué protege?</div>
+    <h2>¿Qué protege el derecho de autor?</h2>
+    <p class="lead">Toda obra original que creas y que se puede reproducir o comunicar de alguna forma. Estas son las más comunes.</p>
+    <div class="risks six">
+      <div class="risk"><div class="n">01</div><h3>Libros y textos</h3><p>Libros, cuentos, poemas y artículos.</p></div>
+      <div class="risk"><div class="n">02</div><h3>Música</h3><p>Canciones, composiciones y letras musicales.</p></div>
+      <div class="risk"><div class="n">03</div><h3>Audiovisual</h3><p>Películas, videos y otras obras audiovisuales.</p></div>
+      <div class="risk"><div class="n">04</div><h3>Artes visuales</h3><p>Pinturas, dibujos, fotografías y esculturas.</p></div>
+      <div class="risk"><div class="n">05</div><h3>Software y datos</h3><p>Programas de computadora y bases de datos.</p></div>
+      <div class="risk"><div class="n">06</div><h3>Escena y obras gráficas</h3><p>Obras de teatro, coreografías, mapas, planos y arquitectura.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow">Cómo trabajamos</div>
+    <h2>De tu obra al certificado.</h2>
+    <p class="lead">Una ruta clara, con acompañamiento jurídico y comunicación en cada etapa.</p>
+    <div class="proc">
+      <div class="p"><div class="n">01</div><div><div class="t">Por WhatsApp</div><h3>Cuéntanos de tu obra</h3><p>Nos escribes y nos platicas qué creaste y para qué la quieres proteger.</p></div></div>
+      <div class="p"><div class="n">02</div><div><div class="t">Tu caso en concreto</div><h3>Revisamos y cotizamos</h3><p>Analizamos qué necesitas, te explicamos el trámite y los documentos que se requieren, y te damos una cotización personalizada.</p></div></div>
+      <div class="p"><div class="n">03</div><div><div class="t">Ante el INDAUTOR</div><h3>Presentamos tu solicitud</h3><p>Tramitamos el registro y te acompañamos hasta obtener tu certificado.</p></div></div>
+    </div>
+    <div class="risk" style="margin-top:34px"><h3 style="margin-top:0">¿Cuánto cuesta?</h3><p>El costo varía según tu obra y las tarifas vigentes del INDAUTOR, por eso lo cotizamos por mensaje, de acuerdo con tu caso en concreto.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Preguntas frecuentes</div>
+    <h2>Lo que más nos preguntan.</h2>
+    <div class="faq">
+      <details><summary>¿Necesito registrar mi obra para que sea mía?</summary><p>En México la protección nace desde que creas la obra, sin trámite. El registro no es obligatorio, pero te da un certificado oficial que te acredita como autor o titular y facilita defender tu obra si alguien la copia o la usa sin permiso.</p></details>
+      <details><summary>¿Cuánto cuesta registrar una obra?</summary><p>No tiene un precio fijo: depende del tipo de obra, de las tarifas vigentes del INDAUTOR y de tu caso. Escríbenos por WhatsApp y te respondemos con una cotización personalizada.</p></details>
+      <details><summary>¿Es lo mismo que registrar una marca?</summary><p>No. La marca (IMPI) protege el nombre o logo con el que identificas tus productos o servicios. El derecho de autor (INDAUTOR) protege la obra creativa en sí: un libro, una canción, un programa, una fotografía. Muchas veces conviene proteger ambas.</p></details>
+      <details><summary>¿Atienden fuera de mi ciudad?</summary><p>Sí. Atendemos en todo México, 100% en línea.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="dark final">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center">Empieza hoy</div>
+    <h2>Protege tus ideas. Protege tu futuro.</h2>
+    <p class="lead">Escríbenos y cuéntanos de tu obra. Atendemos en todo México y te respondemos el mismo día hábil.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa js-wa-autor" href="#" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+      <a class="btn btn-gold" href="/">Registro de marca →</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="seal" style="margin:0 auto 14px">©</span>
+    <p>Atendemos en todo México, 100% en línea.<br>Información orientativa. Cada solicitud está sujeta al análisis y resolución del INDAUTOR.</p>
+    <p style="margin-top:10px"><a href="/" style="color:var(--green)">Registro de marca ante el IMPI</a> · <a href="/aviso-de-privacidad.html" style="color:var(--green)">Aviso de privacidad</a></p>
+  </div>
+</footer>
+
+<script>
+const WHATSAPP = "526142859250";
+document.querySelectorAll(".js-wa-autor").forEach(a=>a.href="https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent("Hola, quiero registrar los derechos de autor de una obra. ¿Me pueden dar información?"));
+</script>
+</body>
+</html>
