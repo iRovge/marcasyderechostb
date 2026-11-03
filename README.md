@@ -5,7 +5,6 @@ Sitio estático (HTML) con cotizador de registro de marca, declaración de uso y
 ## Archivos
 - `index.html` — página principal y cotizador (registro de marca)
 - `derechos-de-autor.html` — pestaña de derechos de autor ante el INDAUTOR (el WhatsApp se cambia en su `<script>`, variable `WHATSAPP`)
-- `aviso-de-privacidad.html` — aviso de privacidad integral
 - `favicon.svg`, `apple-touch-icon.png` — íconos
 - `og-image.jpg` — imagen al compartir el enlace (WhatsApp, Facebook, etc.)
 
